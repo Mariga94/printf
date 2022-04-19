@@ -1,15 +1,9 @@
 #ifndef MAIN_H
 #define MAIN_H
-/**
- * struct op - struct up
- *
- * @op: The operator
- * @f: The function associated
- */
-typeof struct conversion_specifier
-{
-        char *csp;
-        int (*f)(va_list);
-} conv_s;
+#include <stdio.h>
+#include <stdarg.h>
+#include <stdlib.h>
+
 int _printf(const char *format, ...);
+int _putchar(char c);
 #endif
